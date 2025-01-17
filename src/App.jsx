@@ -1,14 +1,12 @@
-
-import './App.scss'
+import "./App.scss";
+import Header from "./components/pages/header/Header";
 
 function App() {
-
-
   return (
-    <main >
-
+    <main>
+      {/* <Header /> */}
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
