@@ -11,14 +11,14 @@ const Header = () => {
          <a href="">Portfolio</a>
          <a href="">Contact me</a>
        </nav>
-       {/* <nav>
+       <nav>
          <a href="https://www.linkedin.com/in/markiyan-marych/" target='_blanc'>
           <In/>
          </a>
          <a href="https://github.com/MarkiMark01" target='_blanc'>
            <GitHub/>
          </a>
-       </nav> */}
+       </nav>
     </header>
   );
 };
