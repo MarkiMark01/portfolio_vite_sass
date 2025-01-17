@@ -5,13 +5,13 @@ import GitHub from "../../icons/GitHub";
 const Header = () => {
   return (
     <header>
-       {/* <img src="./icon.png" alt="logo" width={50} height={50} style={{padding: 2}}/>
+       <img src="./icon.png" alt="logo" width={50} height={50} style={{padding: 2}}/>
        <nav>
          <a href="">About me</a>
          <a href="">Portfolio</a>
          <a href="">Contact me</a>
        </nav>
-       <nav>
+       {/* <nav>
          <a href="https://www.linkedin.com/in/markiyan-marych/" target='_blanc'>
           <In/>
          </a>
