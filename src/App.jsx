@@ -4,7 +4,7 @@ import Header from "./components/pages/header/Header";
 function App() {
   return (
     <main>
-      {/* <Header /> */}
+      <Header />
     </main>
   );
 }
