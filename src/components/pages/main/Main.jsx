@@ -1,26 +1,17 @@
-import styles from './main.module.scss';
+import styles from "./main.module.scss";
 
 const Main = () => {
   return (
-    <section>
+    <section className={styles.main}>
       <section>
-        <p>
-          Hi, I'm Markiyan, a Junior Frontend Developer with a passion for
-          creating modern,
-          <br /> user-friendly websites and applications.
-          <br />
-          I’ve worked on several personal projects where I gained hands-on
-          knowledge <br />
-          and improved my problem-solving skills.
-          <br />
-          I'm eager to join a team where I can contribute my skills, continue
-          learning,
-          <br /> and grow professionally.
+        <p className={styles.text}>
+          Hi, I&apos;m <span>Markiyan Marych,</span> <br/>a Junior Frontend Developer with a passion for
+          creating modern, user-friendly websites and applications.
         </p>
-        <a href="">CONTACT ME</a>
+        <a href="" className={styles.btn}>CONTACT ME</a>
       </section>
       <section>
-        <img src="./photo.jpg" alt="My photo" className={styles.photo}/>
+        <img src="./photo.jpg" alt="My photo" className={styles.photo} />
       </section>
     </section>
   );
