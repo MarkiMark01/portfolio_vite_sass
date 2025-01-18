@@ -1,12 +1,13 @@
 
 import In from "../../icons/In";
 import GitHub from "../../icons/GitHub";
+import styles from "./header.module.scss";
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
        <img src="./icon.png" alt="logo" width={50} height={50} style={{padding: 2}}/>
-       <nav>
+       <nav className={styles.navBar}>
          <a href="">About me</a>
          <a href="">Portfolio</a>
          <a href="">Contact me</a>
