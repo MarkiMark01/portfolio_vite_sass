@@ -1,6 +1,6 @@
 import styles from './icons.module.scss';
 
-const In = ({ width = 30, height = 30, color = "#1a2d40" }) => {
+const In = ({ width = 30, height = 30, color = "#f3d88e" }) => {
 
 
   return (

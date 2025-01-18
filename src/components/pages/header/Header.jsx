@@ -8,11 +8,11 @@ const Header = () => {
     <header className={styles.header}>
        <img src="./icon.png" alt="logo" width={50} height={50} style={{padding: 2}}/>
        <nav className={styles.navBar}>
-         <a href="">About me</a>
+         <a href="">About</a>
          <a href="">Portfolio</a>
-         <a href="">Contact me</a>
+         <a href="">Contacts</a>
        </nav>
-       <nav>
+       <nav className={styles.navIcons}>
          <a href="https://www.linkedin.com/in/markiyan-marych/" target='_blanc'>
           <In/>
          </a>

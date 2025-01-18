@@ -1,6 +1,29 @@
 .header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     max-width: 780px;
     margin: 0 auto;
+    padding-top: 20px;
+
+    .navBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        color: rgba(255, 255, 255, 0.9);
+
+        & a:hover{
+            color: #f3d88e;
+        }
+    }
+
+    .navIcons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70px;
+        height: 40px;
+        margin: 0 10px;
+    }
 }

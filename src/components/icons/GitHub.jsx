@@ -1,6 +1,6 @@
 import styles from './icons.module.scss';
 
-const GitHub = ({ width = 30, height = 30, color = "#1a2d40" }) => {
+const GitHub = ({ width = 30, height = 30, color = "#f3d88e" }) => {
   return (
      <section className={styles.icons}>
       <svg
