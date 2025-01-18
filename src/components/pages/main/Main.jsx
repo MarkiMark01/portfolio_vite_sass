@@ -1,3 +1,5 @@
+import styles from './main.module.scss';
+
 const Main = () => {
   return (
     <section>
@@ -16,6 +18,9 @@ const Main = () => {
           <br /> and grow professionally.
         </p>
         <a href="">CONTACT ME</a>
+      </section>
+      <section>
+        <img src="./photo.jpg" alt="My photo" className={styles.photo}/>
       </section>
     </section>
   );
