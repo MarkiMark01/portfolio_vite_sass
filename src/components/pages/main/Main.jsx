@@ -1,7 +1,9 @@
 const Main = () => {
 return(
     <section>
-        
+        <section>
+            
+        </section>
     </section>
 )
 }
