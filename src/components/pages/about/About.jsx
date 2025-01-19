@@ -1,6 +1,10 @@
+import styles from './about.module.scss';
+
 const About = () => {
 return(
-    <section></section>
+    <section id="about">
+        <h2>About</h2>
+    </section>
 )
 }
 export default About;

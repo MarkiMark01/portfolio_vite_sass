@@ -1,0 +1,10 @@
+:global(#about) {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 20px;
+    max-width: 780px;
+    margin: 50px auto;
+    box-shadow: inset 0 10px 5px rgba(0, 0, 0, 0.1);
+    padding-top: 100px;
+}
