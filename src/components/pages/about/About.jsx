@@ -5,10 +5,11 @@ const About = () => {
     <section id="about">
       <h2>About</h2>
       <p className={styles.text}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quo
-        ex corrupti ullam dolorum animi tempora eius soluta. Corporis culpa
-        earum neque magnam facilis repellat asperiores debitis officiis minima
-        nobis.
+        I am a motivated junior front-end developer with a strong sense of
+        responsibility and adaptability. Skilled in teamwork and clear
+        communication, I focus on delivering high-quality web applications.
+        Eager to learn new technologies, grow professionally, and contribute to
+        the success of the company.
       </p>
     </section>
   );
