@@ -3,14 +3,17 @@ import { useEffect, useState } from "react";
 import styles from "./main.module.scss";
 
 const Main = () => {
-  const [classes, setClasses] = useState("");
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    setClasses("visible");
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 100); 
+    return () => clearTimeout(timer); 
   }, []);
 
   return (
-    <section id="main" className={classes}>
+    <section id="main" className={isVisible ? "visible" : ""}>
       <section>
         <p className={styles.text}>
           Hi, I&apos;m <span>Markiyan Marych,</span> <br />a Junior Frontend
@@ -28,3 +31,5 @@ const Main = () => {
   );
 };
 export default Main;
+
+
