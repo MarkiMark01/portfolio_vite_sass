@@ -6,4 +6,13 @@
   height: 30px;
   border-radius: 20px;
   margin-left: 2px;
+  transition: all 0.3s ease-in-out; 
+
+  svg path {
+    fill: #f3d88e;
+  }
+
+  &:hover svg path {
+    fill: #2fc5f9; 
+  }
 }
