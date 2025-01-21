@@ -4,14 +4,13 @@ import Header from "./components/pages/header/Header";
 import Main from "./components/pages/main/Main";
 import Skills from "./components/pages/skills/Skills";
 
-
 function App() {
   return (
     <main>
       <Header />
-      <Main/>
-      <About/>
-<Skills/>
+      <Main />
+      <About />
+      <Skills />
     </main>
   );
 }

@@ -1,11 +1,12 @@
-const Css = ({width = 100, height = 100 }) => {
+const Css = ({ width = 100, height = 100 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       x="0px"
       y="0px"
       width={width}
-        height={height}
+      height={height}
       viewBox="0 0 48 48"
     >
       <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
@@ -22,3 +23,4 @@ const Css = ({width = 100, height = 100 }) => {
   );
 };
 export default Css;
+
