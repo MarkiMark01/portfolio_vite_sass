@@ -21,4 +21,5 @@ export const skillsData = [
   { Icon: Git, name: "Git" },
   { Icon: MongoDb, name: "MongoDB" },
   { Icon: RestApi, name: "Rest Api" },
+  { Icon: RestApi, name: "Rest Api" },
 ];
