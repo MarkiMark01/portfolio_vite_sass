@@ -9,14 +9,14 @@ import React from "../../icons/React";
 import Redux from "../../icons/Redux";
 
 export const skillsData = [
-  { Icon: Js, name: "JavaScript" },
+  { Icon: Js, name: "Java Script" },
   { Icon: React, name: "React" },
   { Icon: Next, name: "Next.js" },
-  { Icon: Redux, name: "Redux" },
+  { Icon: Redux, name: "Redux Toolkit" },
   { Icon: Node, name: "Node.js" },
   { Icon: React, name: "React Native" },
   { Icon: HtIcon, name: "HTML5" },
   { Icon: Css, name: "CSS" },
   { Icon: Git, name: "Git" },
-  { Icon: MongoDb, name: "MongoDb" },
+  { Icon: MongoDb, name: "Mongo Db" },
 ];
