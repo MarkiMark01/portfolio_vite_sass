@@ -2,6 +2,7 @@ import Css from "../../icons/Css";
 import Git from "../../icons/Git";
 import HtIcon from "../../icons/HtIcon";
 import Js from "../../icons/Js";
+import MongoDb from "../../icons/MongoDb";
 import Next from "../../icons/Next";
 import Node from "../../icons/Node";
 import React from "../../icons/React";
@@ -17,4 +18,5 @@ export const skillsData = [
   { Icon: HtIcon, name: "HTML5" },
   { Icon: Css, name: "CSS" },
   { Icon: Git, name: "Git" },
+  { Icon: MongoDb, name: "MongoDb" },
 ];
