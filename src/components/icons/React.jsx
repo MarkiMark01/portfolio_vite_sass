@@ -1,11 +1,11 @@
-const React = () => {
+const React = ({width = 100, height = 100 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
-      width="50"
-      height="50"
+      width={width}
+        height={height}
       viewBox="0 0 100 100"
     >
       <circle cx="50" cy="50" r="7" fill="#39c1d7"></circle>

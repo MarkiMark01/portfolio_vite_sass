@@ -1,4 +1,4 @@
-const Git = ({ fill = "#F4511E", width = 48, height = 48 }) => {
+const Git = ({ fill = "#F4511E", width = 100, height = 100 }) => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"

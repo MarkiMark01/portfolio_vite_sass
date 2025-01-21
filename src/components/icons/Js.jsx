@@ -1,11 +1,11 @@
-const Js = () => {
+const Js = ({width = 100, height = 100 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
-      width="48"
-      height="48"
+      width={width}
+        height={height}
       viewBox="0 0 48 48"
     >
       <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>

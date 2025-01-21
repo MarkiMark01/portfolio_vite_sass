@@ -1,4 +1,4 @@
-const Redux = ({ fill = "#f3d88e", width = 50, height = 50 }) => {
+const Redux = ({ fill = "#f3d88e", width = 80, height = 80 }) => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -1,8 +1,8 @@
-const Next = () => {
+const Next = ({width = 90, height = 90 }) => {
   return (
     <svg
-    width='46'
-    height='46'
+    width={width}
+        height={height}
       viewBox="0 0 256.00 256.00"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

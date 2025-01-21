@@ -1,9 +1,9 @@
-const HtIcon = () => {
+const HtIcon = ({width = 84, height = 84 }) => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="48"
-        height="48"
+        width={width}
+        height={height}
         viewBox="0 0 256 256"
       >
         <g
