@@ -2,9 +2,9 @@ import styles from "./portfolio.module.scss";
 
 const Portfolio = () => {
   return (
-    <section>
+    <section id="portfolio">
       <h2>Portfolio</h2>
-      <div className={styles.portfolio}>
+      <div className={styles.portfolioBox}>
         <a href="https://apple-store-nextjs-mongodb-tailwind.vercel.app/">
           <img src="./apple.jpg" alt="Icon" />
         </a>
