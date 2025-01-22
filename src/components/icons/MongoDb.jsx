@@ -18,7 +18,7 @@ const MongoDb = ({width = 100, height = 100}) => {
       <g id="SVGRepo_iconCarrier">
         {" "}
         <defs> </defs>{" "}
-        <g stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
+        <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
           {" "}
           <g>
             {" "}
