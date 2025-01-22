@@ -9,6 +9,8 @@
     padding-top: 100px;
     
     .portfolioBox{
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
     }
 }
