@@ -8,6 +8,7 @@ import Node from "../../icons/Node";
 import React from "../../icons/React";
 import Redux from "../../icons/Redux";
 import RestApi from "../../icons/RestApi";
+import TypeScript from "../../icons/TypeScript";
 
 export const skillsData = [
   { Icon: Js, name: "JavaScript" },
@@ -21,5 +22,5 @@ export const skillsData = [
   { Icon: Git, name: "Git" },
   { Icon: MongoDb, name: "MongoDB" },
   { Icon: RestApi, name: "Rest Api" },
-  { Icon: RestApi, name: "Rest Api" },
+  { Icon: TypeScript, name: "TypeScript" },
 ];
