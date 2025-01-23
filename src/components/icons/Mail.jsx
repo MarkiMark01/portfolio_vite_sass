@@ -1,4 +1,4 @@
-const Mail = ({ width = 50, height = 50 }) => {
+const Mail = ({ width = 30, height = 30, color="#fff" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -9,6 +9,7 @@ const Mail = ({ width = 50, height = 50 }) => {
       class="size-6"
       width={width}
       height={height}
+      color={color}
     >
       <path
         strokeLinecap="round"
