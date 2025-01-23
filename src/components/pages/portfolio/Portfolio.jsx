@@ -5,7 +5,6 @@ const Portfolio = () => {
     <section id="portfolio">
       <h2>Portfolio</h2>
       <div className={styles.portfolioBox}>
-        {/* Apple Store */}
         <a href="https://apple-store-nextjs-mongodb-tailwind.vercel.app/" target="_blank">
           <div className={styles.portfolioElem}>
             <div className={styles.portfolioInner}>
@@ -19,8 +18,6 @@ const Portfolio = () => {
             </div>
           </div>
         </a>
-        
-        {/* Bookstore */}
         <a href="https://books-vite-redux-auth.vercel.app/" target="_blank">
           <div className={styles.portfolioElem}>
             <div className={styles.portfolioInner}>
@@ -29,13 +26,11 @@ const Portfolio = () => {
               </div>
               <div className={styles.portfolioBack}>
                 <h3>Online BookStore</h3>
-                <p>A React and Vite-powered bookstore with Redux for state management.</p>
+                <p>A React and Vite-powered bookstore with Redux Toolkit for state management.</p>
               </div>
             </div>
           </div>
         </a>
-
-        {/* E-commerce Backend */}
         <a href="https://github.com/MarkiMark01/node.js-mongodb" target="_blank">
           <div className={styles.portfolioElem}>
             <div className={styles.portfolioInner}>
@@ -49,8 +44,6 @@ const Portfolio = () => {
             </div>
           </div>
         </a>
-
-        {/* Bookstore Mobile App */}
         <a
           href="https://expo.dev/preview/update?message=updated%20the%20project&updateRuntimeVersion=1.0.0&createdAt=2024-11-20T14%3A32%3A31.217Z&slug=exp&projectId=7503b3e2-e8c3-4888-bfac-9fcbefbc21f1&group=03215261-56ad-4f06-8f48-91ea34611ba2"
           target="_blank"
