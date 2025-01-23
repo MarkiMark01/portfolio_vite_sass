@@ -1,5 +1,6 @@
 import "./App.scss";
 import About from "./components/pages/about/About";
+import Contacts from "./components/pages/contacts/Contacts";
 import Header from "./components/pages/header/Header";
 import Main from "./components/pages/main/Main";
 import Portfolio from "./components/pages/portfolio/Portfolio";
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Skills />
       <Portfolio/>
+      <Contacts/>
     </main>
   );
 }
