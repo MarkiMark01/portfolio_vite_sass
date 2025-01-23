@@ -17,7 +17,7 @@ const Contacts = () => {
       <div className={styles.infoBox1}>
         <Phone />
         <a href="tel:48720493341" target="_blank">
-          48 720 493 341
+          +48 720 493 341
         </a>
       </div>
       <br/>

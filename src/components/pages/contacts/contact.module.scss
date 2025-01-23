@@ -58,6 +58,10 @@
   }
   .infoBox:hover,
   .infoBox1:hover {
-    color: #fff;
+    color: #2fc5f9;
   }
+  .infoBox:hover svg,
+.infoBox1:hover svg {
+  stroke: #f3d88e;
+}
 }
