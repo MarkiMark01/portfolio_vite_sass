@@ -12,10 +12,16 @@ function App() {
     <main>
       <Header />
       <Main />
-      <About />
+      <section id="myabout">
+        <About />
+      </section>
       <Skills />
-      <Portfolio/>
-      <Contacts/>
+      <section id="myportfolio">
+        <Portfolio />
+      </section>
+      <section id="mycontacts">
+        <Contacts />
+      </section>
       <Footer/>
     </main>
   );
