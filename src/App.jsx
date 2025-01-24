@@ -9,7 +9,7 @@ import Skills from "./components/pages/skills/Skills";
 
 function App() {
   return (
-    <main>
+    <main className="app" id="top">
       <Header />
       <Main />
       <section id="myabout">

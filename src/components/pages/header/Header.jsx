@@ -5,13 +5,15 @@ import styles from "./header.module.scss";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <img
-        src="./icon.png"
-        alt="logo"
-        width={50}
-        height={50}
-        style={{ padding: 2 }}
-      />
+      <a href="#top">
+        <img
+          src="./icon.png"
+          alt="logo"
+          width={50}
+          height={50}
+          style={{ padding: 2, marginLeft: 10 }}
+        />
+      </a>
       <nav className={styles.navBar}>
         <a href="#myabout">About</a>
         <a href="#myportfolio">Portfolio</a>
