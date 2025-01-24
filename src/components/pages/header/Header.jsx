@@ -13,9 +13,9 @@ const Header = () => {
         style={{ padding: 2 }}
       />
       <nav className={styles.navBar}>
-        {/* <a href="#myabout">About</a>
+        <a href="#myabout">About</a>
         <a href="#myportfolio">Portfolio</a>
-        <a href="#mycontacts">Contacts</a> */}
+        <a href="#mycontacts">Contacts</a>
       </nav>
       <nav className={styles.navIcons}>
         <a href="https://www.linkedin.com/in/markiyan-marych/" target="_blanc">
