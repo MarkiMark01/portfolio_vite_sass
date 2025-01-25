@@ -8,13 +8,15 @@ const Main = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 100); 
-    return () => clearTimeout(timer); 
+    }, 100);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
-    <section id="main" className={isVisible ? "visible" : ""}>
-      <section>
+    <section
+      className={`${isVisible ? styles.visible : ""} ${styles.main}`}
+    >
+      <section className={styles.descr}>
         <p className={styles.text}>
           Hi, I&apos;m <span>Markiyan Marych,</span> <br />a Junior Frontend
           Developer with a passion for creating modern, user-friendly websites
@@ -24,12 +26,14 @@ const Main = () => {
           CONTACT ME
         </a>
       </section>
-      <section>
+      <section className={styles.ph}>
         <img src="./photo.jpg" alt="My photo" className={styles.photo} />
       </section>
     </section>
   );
 };
+
 export default Main;
+
 
 
