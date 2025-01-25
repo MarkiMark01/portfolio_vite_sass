@@ -89,6 +89,12 @@
     margin: 0 20px;
   }
 }
+@media (max-width: 830px){
+  .h2{
+      margin-left: 20px;
+      font-size: 2.5rem;
+  }
+}
 
 @media (max-width: 599px) {
   :global(#portfolio) {

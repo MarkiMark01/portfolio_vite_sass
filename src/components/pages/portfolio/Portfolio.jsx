@@ -3,7 +3,7 @@ import styles from "./portfolio.module.scss";
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h2>Portfolio</h2>
+      <h2 className={styles.h2}>Portfolio</h2>
       <div className={styles.portfolioBox}>
         <a href="https://apple-store-nextjs-mongodb-tailwind.vercel.app/" target="_blank">
           <div className={styles.portfolioElem}>

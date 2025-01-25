@@ -8,61 +8,122 @@
   border-top: 2px solid #f3d88e !important;
   margin-top: 80px;
   position: relative;
-}
 
-.h2 {
-  font-family: "Source Serif 4";
-  font-size: 3rem;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 20px;
-  display: inline-block;
-  position: absolute;
-  background-color: #0a1128;
-  top: -40px;
-  padding: 0 20px 0 0;
-}
+  .h2 {
+    font-family: "Source Serif 4";
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+    display: inline-block;
+    position: absolute;
+    background-color: #0a1128;
+    top: -40px;
+    padding: 0 20px 0 0;
+  }
 
-.contactBox {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 50px;
-
-  .infoBox {
+  .contactBox {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #f3d88e;
-    border-radius: 10px;
-    background-color: #1d2a44;
-    padding: 6px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 
-    a {
-      margin-left: 10px;
+    .infoBox {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #f3d88e;
+      border-radius: 10px;
+      background-color: #1d2a44;
+      padding: 6px;
+
+      a {
+        margin-left: 10px;
+      }
+    }
+    .infoBox1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #f3d88e;
+      border-radius: 10px;
+      background-color: #1d2a44;
+      padding: 6px;
+      margin-left: 30px;
+
+      a {
+        margin-left: 10px;
+      }
+    }
+    .infoBox:hover,
+    .infoBox1:hover {
+      color: #2fc5f9;
     }
   }
-  .infoBox1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #f3d88e;
-    border-radius: 10px;
-    background-color: #1d2a44;
-    padding: 6px;
-    margin-left: 30px;
 
-    a {
-      margin-left: 10px;
+  @media (max-width: 830px) {
+    .h2 {
+      margin-left: 20px;
+      padding-left: 20px;
+      font-size: 2.5rem;
+      top: -32px;
+    }
+    .infoBox {
+      margin: 0 10px;
+    }
+    .infoBox1 {
+      margin: 0 10px;
+      margin-left: 0px;
     }
   }
-  .infoBox:hover,
-  .infoBox1:hover {
-    color: #2fc5f9;
+  @media (max-width: 748px) {
+    .infoBox,
+    .infoBox1 {
+      font-size: 14px;
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
   }
-//   .infoBox:hover svg,
-// .infoBox1:hover svg {
-//   stroke: #f3d88e;
-//   stroke: #f3d88e;
-// }
+  @media (max-width: 690px) {
+    .infoBox,
+    .infoBox1 {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 617px) {
+    .infoBox,
+    .infoBox1 {
+      font-size: 11px;
+      svg {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  }
+  @media (max-width: 617px) {
+    .contactBox {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+
+      .infoBox1{
+        margin-top: 20px;
+      }
+      .infoBox,
+      .infoBox1 {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20;
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
 }
