@@ -45,5 +45,45 @@
   }
 }
 
+@media (max-width: 1024px) {
+  :global(#skills-box) {
+    .skills-container {
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0 20px; 
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  :global(#skills-box) {
+    .skills-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    h2{
+      margin-left: 20px;
+  }
+  }
+}
+
+@media (max-width: 799px) {
+  h2{
+    margin-left: 20px;
+}
+}
+
+@media (max-width: 480px) {
+  :global(#skills-box) {
+    .skills-container {
+      grid-template-columns: 1fr; 
+    }
+  }
+
+  .skill {
+    padding: 10px; 
+    height: auto; 
+  }
+}
+
+
   
 
