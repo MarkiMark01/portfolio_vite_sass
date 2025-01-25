@@ -11,7 +11,7 @@ const Header = () => {
           alt="logo"
           width={50}
           height={50}
-          style={{ padding: 2, marginLeft: 10 }}
+          style={{ padding: 2, marginLeft: 10, marginRight: 10 }}
         />
       </a>
       <nav className={styles.navBar}>
