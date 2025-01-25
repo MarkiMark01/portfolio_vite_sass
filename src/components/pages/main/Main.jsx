@@ -20,7 +20,7 @@ const Main = () => {
           Developer with a passion for creating modern, user-friendly websites
           and applications.
         </p>
-        <a href="" className={styles.btn}>
+        <a href="mailto:markiyan.marych@gmail.com" className={styles.btn}>
           CONTACT ME
         </a>
       </section>

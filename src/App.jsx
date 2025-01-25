@@ -15,14 +15,16 @@ function App() {
       <section id="myabout">
         <About />
       </section>
-      <Skills />
+      <section id="myskills">
+        <Skills />
+      </section>
       <section id="myportfolio">
         <Portfolio />
       </section>
       <section id="mycontacts">
         <Contacts />
       </section>
-      <Footer/>
+      <Footer />
     </main>
   );
 }

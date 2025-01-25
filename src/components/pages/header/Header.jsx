@@ -16,6 +16,7 @@ const Header = () => {
       </a>
       <nav className={styles.navBar}>
         <a href="#myabout">About</a>
+        <a href="#myskills">Skills</a>
         <a href="#myportfolio">Portfolio</a>
         <a href="#mycontacts">Contacts</a>
       </nav>
