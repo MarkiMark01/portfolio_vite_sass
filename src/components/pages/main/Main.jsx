@@ -13,14 +13,12 @@ const Main = () => {
   }, []);
 
   return (
-    <section
-      className={`${isVisible ? styles.visible : ""} ${styles.main}`}
-    >
+    <section className={`${isVisible ? styles.visible : ""} ${styles.main}`}>
       <section className={styles.descr}>
         <p className={styles.text}>
           Hi, I&apos;m <span>Markiyan Marych,</span> <br />a Junior Frontend
-          Developer with a passion for creating modern, user-friendly websites
-          and applications.
+          (Fullstack) Developer with a passion for creating modern,
+          user-friendly websites and applications.
         </p>
         <a href="mailto:markiyan.marych@gmail.com" className={styles.btn}>
           CONTACT ME
@@ -34,6 +32,3 @@ const Main = () => {
 };
 
 export default Main;
-
-
-
