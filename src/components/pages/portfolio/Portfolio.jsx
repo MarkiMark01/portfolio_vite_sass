@@ -60,6 +60,22 @@ const Portfolio = () => {
             </div>
           </div>
         </a>
+        <a
+          href="https://todolist-vite-typescript-redux-toolkit.vercel.app/"
+          target="_blank"
+        >
+          <div className={styles.portfolioElem}>
+            <div className={styles.portfolioInner}>
+              <div className={styles.portfolioFront}>
+                <img src="./todo.jpg" alt="Todo List" />
+              </div>
+              <div className={styles.portfolioBack}>
+                <h3>Todo List App</h3>
+                <p>A TypeScript task manager built with Vite, Redux Toolkit, and SCSS.</p>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
     </section>
   );
