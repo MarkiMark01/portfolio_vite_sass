@@ -76,6 +76,22 @@ const Portfolio = () => {
             </div>
           </div>
         </a>
+        <a
+          href="https://github.com/MarkiMark01/blog_application"
+          target="_blank"
+        >
+          <div className={styles.portfolioElem}>
+            <div className={styles.portfolioInner}>
+              <div className={styles.portfolioFront}>
+                <img src="./blog.jpg" alt="Todo List" />
+              </div>
+              <div className={styles.portfolioBack}>
+                <h3>Blog App</h3>
+                <p>Developed a responsive blog with multilingual support, dark mode, and post/comment management. Built with Nest.js, PostgreSQL, React, and Redux Toolkit.</p>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
     </section>
   );
