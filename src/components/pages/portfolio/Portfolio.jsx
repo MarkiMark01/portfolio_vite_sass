@@ -1,102 +1,36 @@
 import styles from "./portfolio.module.scss";
+import { projects } from "./projects";
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
       <h2 className={styles.h2}>Portfolio</h2>
-      <div className={styles.portfolioBox}>
-        <a href="https://apple-store-nextjs-mongodb-tailwind.vercel.app/" target="_blank">
-          <div className={styles.portfolioElem}>
-            <div className={styles.portfolioInner}>
-              <div className={styles.portfolioFront}>
-                <img src="./apple.jpg" alt="Apple Store" />
+      <ul className={styles.portfolioList}>
+        {projects.map(({ href, img, alt, title, description }) => (
+          <li key={title} className={styles.portfolioItem}>
+            <a href={href} target="_blank" rel="noopener noreferrer">
+              <div className={styles.portfolioElem}>
+                <div className={styles.portfolioInner}>
+                  <div className={styles.portfolioFront}>
+                    <img src={img} alt={alt} loading="lazy" />
+                  </div>
+                  <div className={styles.portfolioBack}>
+                    <h3>{title}</h3>
+                    <p>{description}</p>
+                  </div>
+                </div>
               </div>
-              <div className={styles.portfolioBack}>
-                <h3>Online AppleStore</h3>
-                <p>A modern e-commerce platform using Next.js, MongoDB, and Tailwind.</p>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a href="https://books-vite-redux-auth.vercel.app/" target="_blank">
-          <div className={styles.portfolioElem}>
-            <div className={styles.portfolioInner}>
-              <div className={styles.portfolioFront}>
-                <img src="./book.jpg" alt="Bookstore" />
-              </div>
-              <div className={styles.portfolioBack}>
-                <h3>Online BookStore</h3>
-                <p>A React and Vite-powered bookstore with Redux Toolkit for state management.</p>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a href="https://github.com/MarkiMark01/node.js-mongodb" target="_blank">
-          <div className={styles.portfolioElem}>
-            <div className={styles.portfolioInner}>
-              <div className={styles.portfolioFront}>
-                <img src="./ecommerce.jpg" alt="E-commerce Backend" />
-              </div>
-              <div className={styles.portfolioBack}>
-                <h3>E-commerce Backend</h3>
-                <p>A Node.js and MongoDB-based backend system for e-commerce platforms.</p>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a
-          href="https://expo.dev/preview/update?message=updated%20the%20project&updateRuntimeVersion=1.0.0&createdAt=2024-11-20T14%3A32%3A31.217Z&slug=exp&projectId=7503b3e2-e8c3-4888-bfac-9fcbefbc21f1&group=03215261-56ad-4f06-8f48-91ea34611ba2"
-          target="_blank"
-        >
-          <div className={styles.portfolioElem}>
-            <div className={styles.portfolioInner}>
-              <div className={styles.portfolioFront}>
-                <img src="./books.jpg" alt="Bookstore Mobile App" />
-              </div>
-              <div className={styles.portfolioBack}>
-                <h3>Online Bookstore Mobile App</h3>
-                <p>A React Native mobile app for exploring and buying books.</p>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a
-          href="https://todolist-vite-typescript-redux-toolkit.vercel.app/"
-          target="_blank"
-        >
-          <div className={styles.portfolioElem}>
-            <div className={styles.portfolioInner}>
-              <div className={styles.portfolioFront}>
-                <img src="./todo.jpg" alt="Todo List" />
-              </div>
-              <div className={styles.portfolioBack}>
-                <h3>Todo List App</h3>
-                <p>A TypeScript task manager built with Vite, Redux Toolkit, and SCSS.</p>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a
-          href="https://github.com/MarkiMark01/blog_application"
-          target="_blank"
-        >
-          <div className={styles.portfolioElem}>
-            <div className={styles.portfolioInner}>
-              <div className={styles.portfolioFront}>
-                <img src="./blog.jpg" alt="Todo List" />
-              </div>
-              <div className={styles.portfolioBack}>
-                <h3>Blog App</h3>
-                <p>Developed a responsive blog with multilingual support, dark mode, and post/comment management. Built with Nest.js, PostgreSQL, React, and Redux Toolkit.</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
+            </a>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 };
 
 export default Portfolio;
+
+
+
 
   
