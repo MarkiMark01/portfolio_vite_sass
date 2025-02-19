@@ -24,6 +24,7 @@
 }
 
 .portfolioItem {
+  position: relative;
   perspective: 1000px;
 }
 
@@ -45,6 +46,7 @@
   transform: rotateY(180deg);
 }
 
+/* Передня сторона */
 .portfolioFront,
 .portfolioBack {
   position: absolute;
@@ -70,16 +72,17 @@
   }
 }
 
+/* Задня сторона */
 .portfolioBack {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #1d2a44;
-  transform: rotateY(180deg);
   color: #fff;
   padding: 20px;
   text-align: center;
+  transform: rotateY(180deg);
 }
 
 .portfolioBack h3 {
@@ -93,11 +96,7 @@
   line-height: 1.6;
 }
 
-.portfolioInner {
-  will-change: transform;
-}
-
-
+/* Адаптивність */
 @media (max-width: 1024px) {
   .portfolioList {
     grid-template-columns: repeat(2, 1fr);
@@ -109,3 +108,4 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
