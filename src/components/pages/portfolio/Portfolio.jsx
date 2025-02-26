@@ -5,7 +5,7 @@ import { projects } from "./projects";
 const PortfolioItem = memo(({ href, img, alt, title, description }) => {
   return (
     <li className={styles.portfolioItem}>
-      <a href='https://blogapp-sandy-mu.vercel.app/' target="_blank" rel="noopener noreferrer">
+      <a href={href} target="_blank" rel="noopener noreferrer">
         <div className={styles.portfolioElem}>
           <div className={styles.portfolioInner}>
             <div className={styles.portfolioFront}>
