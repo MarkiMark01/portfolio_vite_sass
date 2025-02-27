@@ -35,7 +35,7 @@ export const projects = [
       description: "A TypeScript task manager built with Vite, Redux Toolkit, and SCSS."
     },
     {
-      href: "https://blogapp-sandy-mu.vercel.app/",
+      href: "https://blog-application-delta-seven.vercel.app",
       img: "./blog.jpg",
       alt: "Blog App",
       title: "Blog App",
